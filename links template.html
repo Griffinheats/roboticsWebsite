@@ -1,11 +1,14 @@
+<!--If I did this correctly then we should be able to just insert this into different files and have a link bar there-->
+<!--There are some issues still, dropdown menus still overlap and they also need to match the style of that in the design we were given-->
+<!--Also we need the attendance button to be different-->
+<!--Why are none of the images working (╯°□°)╯︵ ┻━┻ -->
+<!-- I added the social media buttons but the images do not work-->
+
 <!DOCTYPE html>
 <html>
-    <head>        
-        <title>
-            SOBOTZ | Home
-        </title>
-        <link href="home.css"rel="stylesheet">
-        <link rel="shortcut icon" type="image/x-icon" href="/assets/logo.png" />
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
                 <style>
                     body 
                     {
@@ -81,51 +84,45 @@
                       display: block;
                     }
                 </style>
-    </head>
-
-    </body>
-        <div id="Title" style="font-family:'segoe ui'; padding-left: 50px; padding-top: 25px;">
-            <div id="sb">
-                <h1 style="color: white; font-size: 45px; margin: 0%;">SOBOTZ<div id="team" style="color: #f93e3e; font-size: 24px; padding-left: 23.5px;">TEAM 6911</div></h1>
-            </div>
-        </div>
-        </h1>
+            </head>
+        <body>
 
         <div class="navbar">
-            <a href="homepage.html">Home</a>
-    
-            <!-- fix dropdown menus nad style-->
-            <div class="dropdown">
-                <button class="dropbtn">OUR TEAM 
+        <a href="homepage.html">Home</a>
+
+        <div class="dropdown">
+            <button class="dropbtn">OUR TEAM 
+            <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+            <a href="Leadership.html">Leadership</a>
+            <a href="Advisors.html">Advisors & Mentors</a>
+            <a href="Resources.html">Resources</a>
+            </div>
+
+            <button class="dropbtn">Seasons
                 <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
-                <a href="Leadership.html">Leadership</a>
-                <a href="Advisors.html">Advisors & Mentors</a>
-                <a href="Resources.html">Resources</a>
+                <a href="#">Link1</a>
                 </div>
-    
-                <button class="dropbtn">Seasons
-                    <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content">
-                    <a href="#">Link1</a>
-                    </div>
-    
-                <button class="dropbtn">SPONSORSHIPS
-                    <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content">
-                    <a href="#">Link1</a>
-                    </div>
-            </div> 
-    
-            <a href="FIRST.html">ABOUT FIRST</a>
-            <a href="https://sobotz.github.io/attendancev2/">Attendance</a>
-            <a href="facebook.com"><img src="/assets/facebook.png"></a>
-            <a href="twitter.com"><img src="/assets/twitter.png"></a>
-            <a href="instagram.com"><img src="/assets/instagram.png"></a>
-            <a href="linkedin.com"><img src="/assets/linkedin.png"></a>
-        </div>
-    </body> 
+
+            <button class="dropbtn">SPONSORSHIPS
+                <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                <a href="#">Link1</a>
+                </div>
+        </div> 
+        <a href="FIRST.html">ABOUT FIRST</a>
+        <a href="https://sobotz.github.io/attendancev2/">Attendance</a>
+        <a href="facebook.com"><img src="/assets/facebook.png"></a>
+        <a href="twitter.com"><img src="/assets/twitter.png"></a>
+        <a href="instagram.com"><img src="/assets/instagram.png"></a>
+        <a href="linkedin.com"><img src="/assets/linkedin.png"></a>
+      </div>
+    </body>
+    </div>
+
+    </body>
 </html>
